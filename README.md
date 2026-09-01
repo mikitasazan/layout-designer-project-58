@@ -1,15 +1,28 @@
-# HTML/CSS Boilerplate
+# Когнитивные искажения
 
-## Setup
+Одностраничный лендинг «Когнитивные искажения в программировании» — статичная
+вёрстка по готовому макету: пять карточек искажений (эффект ИКЕА,
+преждевременная оптимизация, искажение новизны, гиперболическое
+обесценивание, ошибка планирования) с описанием каждого.
+
+## Стек
+
+- HTML5
+- CSS3 (собран из SCSS, `src/styles/scss/app.scss` → `src/styles/style.css`)
+- HTMLHint, Stylelint (`stylelint-config-standard-scss`) — проверка вёрстки
+- Surge — деплой статики
+
+## Использование
 
 ```bash
-make install
+make install   # npm install
+make lint      # htmlhint + stylelint
 ```
 
-## Run lint
+Открыть `src/index.html` в браузере, либо поднять локальный сервер:
 
 ```bash
-make lint
+npx http-server src -p 8080
 ```
 
 ---
