@@ -13,6 +13,10 @@ ul {
   margin-bottom: 16px;
 }
 
+.d-flex + div p {
+  margin-bottom: 17px;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -29,7 +33,7 @@ h2 {
   font-weight: 400;
   line-height: 1.2;
 
-  margin-bottom: 22px;
+  margin-bottom: 16px;
 }
 
 .container {
@@ -76,7 +80,7 @@ h2 {
 .header-title {
   position: relative;
 
-  margin-bottom: 185px;
+  margin-bottom: 196px;
 }
 
 .header-title span {
@@ -181,7 +185,7 @@ h1 {
   margin: 0 auto;
 
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
-  margin-bottom: -200px;
+  margin-bottom: -52px;
   position: relative;
   z-index: 5;
 }
@@ -189,6 +193,8 @@ h1 {
 /* Section with 5 distortions (navigation block) */
 
 .five-distortions {
+  margin-top: -148px;
+
   background-color: #42413c;
 }
 
@@ -197,7 +203,7 @@ h1 {
 
   display: flex;
   flex-wrap: wrap;
-  gap: 20px 30px;
+  gap: 5px 30px;
 }
 
 .flex-block-title {
@@ -343,7 +349,7 @@ span .orange {
   text-transform: uppercase;
 
   padding: 5px 0 5px 10px;
-  margin: 100px 0 20px;
+  margin: 98px 0 20px;
 }
 
 .dark {
@@ -450,6 +456,10 @@ span .orange {
   background-color: #f5f4f0;
 }
 
+.errors-in-planning .mb-20 {
+  margin-bottom: 32px;
+}
+
 .errors-in-planning::before {
   content: "";
 
@@ -474,7 +484,7 @@ span .orange {
 
   background-color: #42413c;
 
-  margin-bottom: 76px;
+  margin-bottom: 83px;
 }
 
 .subscription-to-updates-text {
@@ -513,7 +523,7 @@ span .orange {
   color: #fff;
   font-size: 18px;
 
-  padding-top: 35px;
+  padding-top: 42px;
   margin-bottom: 9px;
 }
 
