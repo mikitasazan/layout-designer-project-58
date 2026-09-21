@@ -8,7 +8,7 @@
 ## Стек
 
 - HTML5
-- CSS3 (собран из SCSS, `src/styles/scss/app.scss` → `src/styles/style.css`)
+- CSS3 (`src/styles/style.css`)
 - HTMLHint, Stylelint (`stylelint-config-standard-scss`) — проверка вёрстки
 - Surge — деплой статики
 
